@@ -7,5 +7,5 @@ $I->amOnPage(LoginPage::$URL);
 $I->fillField(LoginPage::$usernameField,'newuser');
 $I->fillField(LoginPage::$passwordField, '1233test');
 $I->click(LoginPage::$loginButton);
-$I->wait('4');
+$I->wait('5');
 $I->see('Профиль пользователя');
