@@ -12,7 +12,7 @@ $I->wait('3');
 $I->fillField(ProfilePage::$firstLastNameField, 'Анна Петрова');
 $I->fillField(ProfilePage::$phoneField, '380980112233');
 $I->click(ProfilePage::$saveButtonFirst);
-$I->seeInField('fullname', 'Мария Петрова');
+$I->seeInField('fullname', 'Анна Петрова');
 $I->seeInField('phone', '380980112233');
 
 
